@@ -76,11 +76,11 @@ function createStoryJS(c, src) {
 			css:		embed_path + "css/",
 			js:			embed_path + "js/",
 			locale:		embed_path + "js/locale/",
-			jquery:		"http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js",
+			jquery:		"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js",
 			font: {
 				google:	false,
 				css:	embed_path + "css/themes/font/",
-				js:		"http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
+				js:		"https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
 			}
 		},
 		storyjs_e_config = {
