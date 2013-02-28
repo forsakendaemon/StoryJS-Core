@@ -191,6 +191,10 @@ if(typeof VMM != 'undefined' && typeof VMM.MediaElement == 'undefined') {
 					VMM.ExternalAPI.webthumb.get(m);
 					//mediaElem			=	"<div class='media-shadow website'><a href='" + m.id + "' target='_blank'>" + "<img src='http://api1.thumbalizr.com/?url=" + m.id.replace(/[\./]$/g, "") + "&width=300' class='media-image'></a></div>";
 					
+			// RAW CONTENT
+				} else if (m.type       ==  "raw") {
+					isTextMedia         =  true;
+					mediaElem           =  m.id;
 			// NO MATCH
 				} else {
 					trace("NO KNOWN MEDIA TYPE FOUND");
